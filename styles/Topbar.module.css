@@ -1,0 +1,37 @@
+.container {
+    background-color: black;
+    /* height: 16px; */
+
+
+}
+
+.topbar {
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.info {
+    flex: 2;
+    font-style: italic;
+    position: relative;
+}
+
+.slogan {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    font-style: normal;
+}
