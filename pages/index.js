@@ -21,6 +21,9 @@ export default function Home() {
           content="https://example.com/images/cool-page.jpg"
         />
       </Head>
+      <div>
+        content fo web
+      </div>
     </>
   )
 }
